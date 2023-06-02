@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-02 11:07+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: attachments/apps.py:10
+msgid "Attachments"
+msgstr "附件"
+
+#: attachments/forms.py:21
+#, python-brace-format
+msgid "File exceeds maximum size of {size}"
+msgstr "文件超过 {size} 大小限制"
+
+#: attachments/forms.py:34
+msgid "Upload attachment"
+msgstr "上传附件"
+
+#: attachments/models.py:39
+msgid "creator"
+msgstr "创建人"
+
+#: attachments/models.py:43 attachments/models.py:49
+msgid "attachment"
+msgstr "附件"
+
+#: attachments/models.py:45
+msgid "created"
+msgstr "创建世界"
+
+#: attachments/models.py:46
+msgid "modified"
+msgstr "修改世界"
+
+#: attachments/models.py:50
+msgid "attachments"
+msgstr "附件"
+
+#: attachments/models.py:53
+msgid "Can delete foreign attachments"
+msgstr "可删除的外链附件"
+
+#: attachments/models.py:57
+#, python-brace-format
+msgid "{username} attached {filename}"
+msgstr "{username} 添加了附件 {filename}"
+
+#: attachments/templates/attachments/add_form.html:8
+msgid "Add attachment"
+msgstr "添加附件"
+
+#: attachments/templates/attachments/delete_link.html:2
+msgid "Delete attachment"
+msgstr "删除附件"
+
+#: attachments/views.py:62
+msgid "Your attachment was uploaded."
+msgstr "附件已上传"
+
+#: attachments/views.py:87
+msgid "Your attachment was deleted."
+msgstr "附件已删除"
